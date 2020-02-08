@@ -1,0 +1,10 @@
+[dependencies]
+
+[package]
+authors = ['myuon <ioi.joi.koi.loi@gmail.com>']
+edition = '2018'
+name = 'abc080'
+version = '0.1.0'
+[profile.release]
+lto = true
+panic = 'abort'
