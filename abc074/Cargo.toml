@@ -1,0 +1,15 @@
+[package]
+name = "abc074"
+version = "0.1.0"
+authors = ["myuon <ioi.joi.koi.loi@gmail.com>"]
+edition = "2018"
+
+# dependencies added to new project
+[dependencies]
+# proconio = "*"
+# competitive = { git = "https://github.com/tanakh/competitive-rs.git" }
+algo = { path = "/Users/ioijoi/workspace/atcoder/algo" }
+
+[profile.release]
+lto = true
+panic = 'abort'
