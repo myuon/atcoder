@@ -9,6 +9,7 @@ edition = "2018"
 # proconio = "*"
 # competitive = { git = "https://github.com/tanakh/competitive-rs.git" }
 algo = { path = "/Users/ioijoi/workspace/atcoder/algo" }
+num = "0.4.0"
 
 [profile.release]
 lto = true
